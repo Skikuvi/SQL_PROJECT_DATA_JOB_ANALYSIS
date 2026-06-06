@@ -29,6 +29,8 @@ INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY   salary_year_avg DESC
 
+
+
 /* SQL was the most frequently requested skill, appearing in 8 out of 8 roles (100%), making it the core requirement for top-paying Data Analyst positions.
 Python appeared in 7 out of 8 roles (87.5%), demonstrating its importance for data analysis, automation, and advanced analytics tasks.
 Tableau was listed in 6 out of 8 roles (75%), highlighting the strong demand for data visualization and business intelligence capabilities.
